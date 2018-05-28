@@ -83,185 +83,192 @@
 		<!-- /.container-fluid -->
 	</div>
 
+	
 	<div class="home">
 		<div class="wrapper">
-
-			<div class="container-split">
-				<div class="header-section">
-
-					<h4>!OBTÉN TU DINERO EN 24 HORAS!</h4>
-				</div>
-				<div class="split-left-content">
-					<div class="left-header-panel">
-						<p>Préstamos personales
-							<br> en menos de 48 horas.</p>
-						<span>Calcula tu préstamo online.</span>
+			<div id="myCarousel" class="header-slider carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item bg bg1 active">
 					</div>
-				</div>
-				<div class="split-image">
-					<div class="panel-cotizador">
-						<div class="row center padding-top" id="step1-credit">
-							<div id="elige-dependencia" class="col-xs-12 padding-top">
-								<p class="title-cotizador">Selecciona la dependencia donde labores</p>
-								<div class="menu_credit_type col-xs-12 col-md-offset-1">
-									<div class="col-xs-6 col-md-2 text-center">
-										<input type="radio" value="pemex" id="pemex" name="dependencia">
-										<label for="pemex">
-											<div class="icon-item">
-												<img src="img/logoIMSS.png" alt="">
-											</div>
-										</label>
-										<p class="credit-text">IMSS Jubilados</p>
-									</div>
-									<div class="col-xs-6 col-md-2 text-center">
-										<input type="radio" value="ssap" id="ssap" name="dependencia">
-										<label for="ssap">
-											<div class="icon-item">
-												<img src="img/logoSEP.png" alt="">
-											</div>
-										</label>
-										<p class="credit-text">SEP</p>
-									</div>
-									<div class="col-xs-6 col-md-2 text-center">
-										<input type="radio" value="ssah" id="ssah" name="dependencia">
-										<label for="ssah">
-											<div class="icon-item">
-												<img src="img/logoSente.png" alt="">
-											</div>
-										</label>
-										<p class="credit-text">SNTE 17 y 36 EdoMex</p>
-									</div>
-									<div class="col-xs-6 col-md-2 text-center">
-										<input type="radio" value="gob_quer" id="gob_quer" name="dependencia">
-										<label for="gob_quer">
-											<div class="icon-item">
-												<img src="img/logoIMSS.png" alt="">
-											</div>
-										</label>
-										<p class="credit-text">IMSS Pensionados</p>
-									</div>
-									<div class="col-xs-6 col-md-2 text-center">
-										<input type="radio" value="otra" id="otra" name="dependencia">
-										<label for="otra">
-											<div class="icon-item">
-												<img src="img/logoCDMX.png" alt="">
-											</div>
-										</label>
-										<p class="credit-text">GOB. CDMX</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-10 col-xs-12 col-md-offset-2">
-								<div class="barra-cotizador">
-									<p>Elige una cantidad:</p>
-									<div class="col-xs-12 text-center">
-										<input class="single-slider" type="hidden" value="0.0" />
-									</div>
-								</div>
-							</div>
-
-							<div class="col-xs-12 col-md-8 col-md-offset-2">
-
-								<div class="row">
-									<div class="col-md-3">
-										<div class="pago-por-mes">
-											<p>12 meses</p>
-											<span id="12-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="pago-por-mes">
-											<p>24 meses</p>
-											<span id="24-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="pago-por-mes">
-											<p>36 meses</p>
-											<span id="36-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="pago-por-mes">
-											<p>48 meses</p>
-											<span id="48-meses">$1,000</span>
-										</div>
-									</div>
-
-								</div>
-								<div class="row">
-									<p>Para solicitarlo ingresa tus datos:</p>
-									<div class="form-group col-xs-12 padding-dekstop-col">
-										<input type="text" class="form-control validate" id="nombre" placeholder="Nombre">
-										<span class="input-success"></span>
-										<span class="input-error"></span>
-									</div>
-									<div class="form-group col-xs-12 col-md-6 padding-dekstop-col">
-										<input type="text" class="form-control validate" id="ap-paterno" placeholder="Apellido paterno">
-										<span class="input-success"></span>
-										<span class="input-error"></span>
-									</div>
-									<div class="form-group col-xs-12 col-md-6 padding-dekstop-col">
-										<input type="text" class="form-control validate" id="ap-materno" placeholder="Apellido materno">
-										<span class="input-success"></span>
-										<span class="input-error"></span>
-									</div>
-									<div class="form-group col-xs-12 padding-dekstop-col">
-										<input type="tel" class="form-control validate" id="celular" placeholder="Celular sin 044">
-										<span class="input-success"></span>
-										<span class="input-error"></span>
-									</div>
-									<div class="form-group col-xs-12 padding-dekstop-col">
-										<input type="email" class="form-control validate" id="correo" placeholder="Correo electrónico">
-										<span class="input-success"></span>
-										<span class="input-error"></span>
-									</div>
-								</div>
-								<div class="row">
-									<div id="loader-phone-message" class="row hidden">
-										<div class="sk-folding-cube">
-											<div class="sk-cube1 sk-cube"></div>
-											<div class="sk-cube2 sk-cube"></div>
-											<div class="sk-cube4 sk-cube"></div>
-											<div class="sk-cube3 sk-cube"></div>
-										</div>
-										<div class="center">
-											<span>Enviando mensaje SMS</span>
-										</div>
-									</div>
-									<div class="col-xs-12 alert-div">
-										<div id="phone-message-alert" class="alert alert-info alert-dismissible hidden" role="alert">
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-											<i class="fa fa-info-circle"></i> Hemos enviado un código SMS a tu celular, si no lo recibes en 15 segundos, puede que el número ingresado
-											no este correcto
-										</div>
-									</div>
-									<div class="col-xs-12 col-md-12 code-submit hidden">
-										<h1 class="title-section">Ingresar código SMS</h1>
-										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-									</div>
-								</div>
-								<div class="col-xs-12 text-center padding-dekstop-col">
-									<a href="identificacion.html" id="btnSolicitarOfertas" class="btn btn-form">Solicítalo ahora</a>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-12 col-md-11 col-md-offset-1">
-								<div id="form-cotizador"></div>
-								<div id="propuestas-cotizador"></div>
-							</div>
-						</div>
+					<div class="item bg bg2">
+					</div>
+					<div class="item bg bg1">
 					</div>
 				</div>
 			</div>
+			<div class="row header-content">
+				<div class="col-md-5">
+						<div class="left-header-panel">
+								<p>Préstamos personales
+									<br> en menos de 48 horas.</p>
+								<span>Calcula tu préstamo online.</span>
+							</div>
+				</div>
+				<div class="col-md-7">
+						<div class="panel-cotizador">
+								<div class="row center padding-top" id="step1-credit">
+									<div id="elige-dependencia" class="col-xs-12 padding-top">
+										<p class="title-cotizador"><span>1.</span> Selecciona la dependencia donde labores</p>
+										<div class="menu_credit_type col-xs-12 col-md-offset-1">
+											<div class="col-xs-6 col-md-2">
+												<input type="radio" value="imss-j" id="imss-j" name="dependencia">
+												<label for="imss-j">
+													<div class="icon-item">
+														<img src="img/logoIMSS.png" alt="">
+													</div>
+												</label>
+												<p class="credit-text text-center">IMSS Jubilados</p>
+											</div>
+											<div class="col-xs-6 col-md-2">
+												<input type="radio" value="sep" id="sep" name="dependencia">
+												<label for="sep">
+													<div class="icon-item">
+														<img src="img/logoSEP.png" alt="">
+													</div>
+												</label>
+												<p class="credit-text text-center">SEP</p>
+											</div>
+											<div class="col-xs-6 col-md-2">
+												<input type="radio" value="sente" id="sente" name="dependencia">
+												<label for="sente">
+													<div class="icon-item">
+														<img src="img/logoSente.png" alt="">
+													</div>
+												</label>
+												<p class="credit-text text-center">SNTE 17 y 36 EdoMex</p>
+											</div>
+											<div class="col-xs-6 col-md-2">
+												<input type="radio" value="imss-p" id="imss-p" name="dependencia">
+												<label for="imss-p">
+													<div class="icon-item">
+														<img src="img/logoIMSS.png" alt="">
+													</div>
+												</label>
+												<p class="credit-text text-center">IMSS Pensionados</p>
+											</div>
+											<div class="col-xs-6 col-md-2">
+												<input type="radio" value="gob-cdmx" id="gob-cdmx" name="dependencia">
+												<label for="gob-cdmx">
+													<div class="icon-item">
+														<img src="img/logoCDMX.png" alt="">
+													</div>
+												</label>
+												<p class="credit-text text-center">GOB. CDMX</p>
+											</div>
+										</div>
+									</div>
+		
+									<div class="col-md-10 col-xs-12 col-md-offset-2">
+										<div class="barra-cotizador">
+											<p>Elige una cantidad:</p>
+											<div class="col-xs-12 text-center">
+												<input class="single-slider" type="hidden" value="0.0" />
+											</div>
+										</div>
+									</div>
+		
+									<div class="col-xs-12 col-md-8 col-md-offset-2">
+		
+										<div class="row">
+											<div class="col-md-3">
+												<div class="pago-por-mes">
+													<p>12 meses</p>
+													<span id="12-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="pago-por-mes">
+													<p>24 meses</p>
+													<span id="24-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="pago-por-mes">
+													<p>36 meses</p>
+													<span id="36-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="pago-por-mes">
+													<p>48 meses</p>
+													<span id="48-meses">$1,000</span>
+												</div>
+											</div>
+		
+										</div>
+										<div class="row">
+											<p>Para solicitarlo ingresa tus datos:</p>
+											<div class="form-group col-xs-12 padding-dekstop-col">
+												<input type="text" class="form-control validate" id="nombre" placeholder="Nombre">
+												<span class="input-success"></span>
+												<span class="input-error"></span>
+											</div>
+											<div class="form-group col-xs-12 col-md-6 padding-dekstop-col">
+												<input type="text" class="form-control validate" id="ap-paterno" placeholder="Apellido paterno">
+												<span class="input-success"></span>
+												<span class="input-error"></span>
+											</div>
+											<div class="form-group col-xs-12 col-md-6 padding-dekstop-col">
+												<input type="text" class="form-control validate" id="ap-materno" placeholder="Apellido materno">
+												<span class="input-success"></span>
+												<span class="input-error"></span>
+											</div>
+											<div class="form-group col-xs-12 padding-dekstop-col">
+												<input type="tel" class="form-control validate" id="celular" placeholder="Celular sin 044">
+												<span class="input-success"></span>
+												<span class="input-error"></span>
+											</div>
+											<div class="form-group col-xs-12 padding-dekstop-col">
+												<input type="email" class="form-control validate" id="correo" placeholder="Correo electrónico">
+												<span class="input-success"></span>
+												<span class="input-error"></span>
+											</div>
+										</div>
+										<div class="row">
+											<div id="loader-phone-message" class="row hidden">
+												<div class="sk-folding-cube">
+													<div class="sk-cube1 sk-cube"></div>
+													<div class="sk-cube2 sk-cube"></div>
+													<div class="sk-cube4 sk-cube"></div>
+													<div class="sk-cube3 sk-cube"></div>
+												</div>
+												<div class="center">
+													<span>Enviando mensaje SMS</span>
+												</div>
+											</div>
+											<div class="col-xs-12 alert-div">
+												<div id="phone-message-alert" class="alert alert-info alert-dismissible hidden" role="alert">
+													<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+													<i class="fa fa-info-circle"></i> Hemos enviado un código SMS a tu celular, si no lo recibes en 15 segundos, puede que el número ingresado
+													no este correcto
+												</div>
+											</div>
+											<div class="col-xs-12 col-md-12 code-submit hidden">
+												<h1 class="title-section">Ingresar código SMS</h1>
+												<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+												<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+												<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+												<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+												<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+											</div>
+										</div>
+										<div class="col-xs-12 text-center padding-dekstop-col">
+											<a href="identificacion.html" id="btnSolicitarOfertas" class="btn btn-form">Solicítalo ahora</a>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-md-11 col-md-offset-1">
+										<div id="form-cotizador"></div>
+										<div id="propuestas-cotizador"></div>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+			
 		</div>
 
 		<section id="cel-credit">

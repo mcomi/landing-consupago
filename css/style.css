@@ -1484,32 +1484,36 @@ body {
   text-decoration: underline;
   background-color: transparent; }
 
-.container-split {
-  width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+.header-slider.carousel, .item, .active {
+  height: 100%; }
 
-.container-split .split-left-content {
-  width: 35%;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  overflow: auto;
-  background: #333; }
+.header-slider.carousel-inner {
+  height: 100%; }
 
-.container-split .split-image {
-  width: 65%;
-  background-image: url("../img/PEMEX.jpg");
-  background-size: 127%; }
+.header-slider.carousel {
+  margin-bottom: 60px; }
+
+.header-slider.carousel-caption {
+  z-index: 10; }
+
+.header-slider.carousel .item {
+  background-color: #777; }
+
+.header-slider .carousel-inner .bg {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header-slider .carousel-inner .bg1 {
+  background-image: url("../img/ENFERMERAS-IMSS.jpg");
+  background-position: center top; }
+
+.header-slider .carousel-inner .bg2 {
+  background-image: url("../img/maestro-sep.jpg");
+  background-position: center center; }
+
+.header-slider .carousel-inner .bg3 {
+  background-image: url("../img/infonavit.jpg");
+  background-position: center bottom; }
 
 .container-split .header-section {
   position: absolute;
@@ -1520,9 +1524,13 @@ body {
 #testimonios {
   min-height: 510px; }
 
+.header-content {
+  position: absolute;
+  top: 7%; }
+
 .left-header-panel {
-  background-color: #DADADA;
-  margin: 0;
+  background-color: rgba(218, 218, 218, 0.8);
+  margin: 80px 20px;
   border: 0;
   padding: 45px;
   text-align: center; }
@@ -1533,15 +1541,28 @@ body {
     font-size: 16px; }
 
 .panel-cotizador {
-  background-color: rgba(32, 107, 157, 0.7);
-  margin: 27% 70px 0 25px;
+  background-color: rgba(32, 107, 157, 0.8);
+  margin: -110px 40px 0 0px;
   height: auto;
   color: #fff; }
 
 .title-cotizador {
-  text-align: center;
   padding: 26px;
   font-size: 16px; }
+
+.title-cotizador span {
+  color: #E17D61;
+  font-size: 28px; }
+
+.icon-item {
+  padding: 6px; }
+
+input[type=radio]:checked + label div img {
+  height: 50px; }
+
+p.credit-text {
+  font-size: 12px;
+  padding-top: 10px; }
 
 .barra-cotizador {
   margin: 20px 0 67px 0; }
@@ -1608,7 +1629,7 @@ body {
   background-color: #333;
   height: 75%; }
 
-.carousel {
+.testimonios .carousel {
   position: absolute;
   width: 100%; }
 
