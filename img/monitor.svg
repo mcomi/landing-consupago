@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="40px" viewBox="0 0 49 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>monitor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Process_4_uploading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-440.000000, -840.000000)">
+        <g id="upload_house-copy" transform="translate(215.000000, 748.000000)" fill-rule="nonzero">
+            <g id="id_capture" transform="translate(82.000000, 73.000000)">
+                <g id="Camera_buton-Copy" transform="translate(126.000000, 0.000000)">
+                    <g id="monitor" transform="translate(17.000000, 19.000000)">
+                        <path d="M44.919619,32.9885714 L3.84228571,32.9885714 C1.7287619,32.9885714 0,31.2590476 0,29.1455238 L0,3.91657143 C0,1.80304762 1.7287619,0.0742857143 3.84228571,0.0742857143 L44.9188571,0.0742857143 C47.032381,0.0742857143 48.7611429,1.80304762 48.7611429,3.91657143 L48.7611429,29.1455238 C48.7619048,31.2590476 47.0331429,32.9885714 44.919619,32.9885714 Z" id="Shape" fill="#EB0029"></path>
+                        <rect id="Rectangle-path" fill="#FFA624" x="2.43809524" y="2.51314286" width="43.8857143" height="28.0380952"></rect>
+                        <rect id="Rectangle-path" fill="#EB0029" x="15.8689524" y="32.9893333" width="14.5371429" height="5.21371429"></rect>
+                        <polygon id="Shape" fill="#EB0029" points="31.6251429 39.3047619 14.6499048 39.3047619 15.8689524 38.2015238 30.4060952 38.2015238"></polygon>
+                        <polygon id="Shape" fill="#EB0029" points="15.8689524 32.9885714 27.1238095 32.9885714 15.8689524 34.8377143"></polygon>
+                        <rect id="Rectangle-path" fill="#EB0029" x="14.6499048" y="39.3055238" width="16.9752381" height="1"></rect>
+                        <g id="Group" opacity="0.15" transform="translate(2.380952, 2.476190)" fill="#FFFFFF">
+                            <polygon id="Shape" points="0.0571428571 16.608381 0.0571428571 0.0361904762 19.7478095 0.0361904762"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

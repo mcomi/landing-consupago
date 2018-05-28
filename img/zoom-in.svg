@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="58px" viewBox="0 0 56 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>zoom-in</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Card_description" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-546.000000, -984.000000)">
+        <g id="Group-21" transform="translate(546.000000, 984.000000)">
+            <g id="zoom-in">
+                <circle id="Oval" stroke="#EB0029" stroke-width="2" fill="#FFA400" fill-rule="nonzero" cx="23.0401569" cy="22.9607843" r="21.9607843"></circle>
+                <path d="M30.7264314,24.0588235 L15.3538824,24.0588235 C14.7477647,24.0588235 14.2558431,23.566902 14.2558431,22.9607843 C14.2558431,22.3546667 14.7477647,21.8627451 15.3538824,21.8627451 L30.7264314,21.8627451 C31.332549,21.8627451 31.8244706,22.3546667 31.8244706,22.9607843 C31.8244706,23.566902 31.332549,24.0588235 30.7264314,24.0588235 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M37.8131765,39.2095686 L54.8832941,56.9626667" id="Shape" stroke="#EB0029" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M23.0401569,31.745098 C22.4340392,31.745098 21.9421176,31.2531765 21.9421176,30.6470588 L21.9421176,15.2745098 C21.9421176,14.6683922 22.4340392,14.1764706 23.0401569,14.1764706 C23.6462745,14.1764706 24.1381961,14.6683922 24.1381961,15.2745098 L24.1381961,30.6470588 C24.1381961,31.2531765 23.6462745,31.745098 23.0401569,31.745098 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

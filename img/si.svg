@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>si</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Process_2.2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-217.000000, -927.000000)">
+        <g id="form" transform="translate(184.000000, 425.000000)">
+            <g id="Group-5" transform="translate(33.000000, 220.000000)">
+                <g id="Group-4-Copy" transform="translate(0.000000, 210.000000)">
+                    <g id="si" transform="translate(0.000000, 72.000000)">
+                        <circle id="Oval-2" stroke="#FFA400" fill="#FFFFFF" cx="17" cy="17" r="16"></circle>
+                        <text id="Sí" font-family="GothamMedium, Gotham Medium" font-size="11" font-weight="normal" line-spacing="16" fill="#FFA400">
+                            <tspan x="12" y="17">Sí</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="16px" viewBox="0 0 23 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_right_active</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1005.000000, -905.000000)">
+        <g id="paginator" transform="translate(808.000000, 904.000000)" fill="#EB0029" fill-rule="nonzero">
+            <g id="right-arrow" transform="translate(197.000000, 1.000000)">
+                <path d="M14.7513043,0.700521739 C14.4528696,0.391652174 13.9561739,0.391652174 13.6473043,0.700521739 C13.3488696,0.998956522 13.3488696,1.49565217 13.6473043,1.7933913 L19.2452174,7.39130435 L0.772869565,7.39130435 C0.34226087,7.392 0,7.73426087 0,8.16486957 C0,8.59547826 0.34226087,8.94886957 0.772869565,8.94886957 L19.2452174,8.94886957 L13.6473043,14.5363478 C13.3488696,14.8452174 13.3488696,15.3426087 13.6473043,15.6403478 C13.9561739,15.9492174 14.4535652,15.9492174 14.7513043,15.6403478 L21.6744348,8.71721739 C21.9833043,8.41878261 21.9833043,7.92208696 21.6744348,7.62434783 L14.7513043,0.700521739 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

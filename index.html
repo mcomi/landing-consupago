@@ -1,0 +1,504 @@
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="UI Banorte Tarjeta Crédito">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1, maximum-scale=1">
+
+	<title>Consupago</title>
+
+	<!-- Disable tap highlight on IE -->
+	<meta name="msapplication-tap-highlight" content="no">
+
+	<!-- Web Application Manifest -->
+	<link rel="manifest" href="manifest.json">
+
+	<!-- Add to homescreen for Chrome on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="bx+">
+	<link rel="icon" sizes="192x192" href="/img/chrome-touch-icon-192x192.png">
+
+	<!-- Add to homescreen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="bx+">
+	<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.1.1/min/dropzone.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/css/bootstrap-slider.min.css"
+	/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Tile icon for Win8 (144x144 + tile color) -->
+	<meta name="msapplication-TileImage" content="/img/ms-touch-icon-144x144-precomposed.png">
+	<meta name="msapplication-TileColor" content="#263238">
+
+	<!-- Color the status bar on mobile devices -->
+	<meta name="theme-color" content="#263238">
+</head>
+
+<body>
+	<div class="navbar navbar-fixed-top navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="img/logo.png" alt="">
+				</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+
+				<ul id="desktop-menu" class="nav navbar-nav">
+					<li>
+						<a href="#tarjetas">Cotizador</a>
+					</li>
+					<li>
+						<a href="#pasos">¿Cómo funciona?</a>
+					</li>
+					<li>
+						<a href="#testimonios">Testimonios</a>
+					</li>
+					<li>
+						<a href="#preguntas">Preguntas Frecuentes</a>
+					</li>
+					<li>
+						<a href="#secciones">Secciones</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.container-fluid -->
+	</div>
+
+	<div class="home">
+		<div class="wrapper">
+
+			<div class="container-split">
+				<div class="header-section">
+
+					<h4>!OBTÉN TU DINERO EN 24 HORAS!</h4>
+				</div>
+				<div class="split-left-content">
+					<div class="left-header-panel">
+						<p>Préstamos personales
+							<br> en menos de 48 horas.</p>
+						<span>Calcula tu préstamo online.</span>
+					</div>
+				</div>
+				<div class="split-image">
+					<div class="panel-cotizador">
+						<div class="row center padding-top" id="step1-credit">
+							<div id="elige-dependencia" class="col-xs-12 padding-top">
+								<p class="title-cotizador">Selecciona la dependencia donde labores</p>
+								<div class="menu_credit_type col-xs-12 col-md-offset-1">
+									<div class="col-xs-6 col-md-2 text-center">
+										<input type="radio" value="pemex" id="pemex" name="dependencia">
+										<label for="pemex">
+											<div class="icon-item">
+												<img src="img/logoIMSS.png" alt="">
+											</div>
+										</label>
+										<p class="credit-text">IMSS Jubilados</p>
+									</div>
+									<div class="col-xs-6 col-md-2 text-center">
+										<input type="radio" value="ssap" id="ssap" name="dependencia">
+										<label for="ssap">
+											<div class="icon-item">
+												<img src="img/logoSEP.png" alt="">
+											</div>
+										</label>
+										<p class="credit-text">SEP</p>
+									</div>
+									<div class="col-xs-6 col-md-2 text-center">
+										<input type="radio" value="ssah" id="ssah" name="dependencia">
+										<label for="ssah">
+											<div class="icon-item">
+												<img src="img/logoSente.png" alt="">
+											</div>
+										</label>
+										<p class="credit-text">SNTE 17 y 36 EdoMex</p>
+									</div>
+									<div class="col-xs-6 col-md-2 text-center">
+										<input type="radio" value="gob_quer" id="gob_quer" name="dependencia">
+										<label for="gob_quer">
+											<div class="icon-item">
+												<img src="img/logoIMSS.png" alt="">
+											</div>
+										</label>
+										<p class="credit-text">IMSS Pensionados</p>
+									</div>
+									<div class="col-xs-6 col-md-2 text-center">
+										<input type="radio" value="otra" id="otra" name="dependencia">
+										<label for="otra">
+											<div class="icon-item">
+												<img src="img/logoCDMX.png" alt="">
+											</div>
+										</label>
+										<p class="credit-text">GOB. CDMX</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-10 col-xs-12 col-md-offset-1">
+								<div class="barra-cotizador">
+									<p>Elige una cantidad:</p>
+									<div class="col-xs-12">
+										<input class="single-slider" type="hidden" value="0.0" />
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-md-8 col-md-offset-2">
+
+								<div class="row">
+									<div class="col-md-3">
+										<div class="pago-por-mes">
+											<p>12 meses</p>
+											<span>$1,000</span>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="pago-por-mes">
+											<p>24 meses</p>
+											<span>$1,000</span>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="pago-por-mes">
+											<p>36 meses</p>
+											<span>$1,000</span>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="pago-por-mes">
+											<p>48 meses</p>
+											<span>$1,000</span>
+										</div>
+									</div>
+
+								</div>
+								<div class="row">
+									<p>Para solicitarlo ingresa tus datos:</p>
+									<div class="form-group col-xs-12 padding-dekstop-col">
+										<input type="text" class="form-control validate" id="nombre" placeholder="Nombre">
+										<span class="input-success"></span>
+										<span class="input-error"></span>
+									</div>
+									<div class="form-group col-xs-12 col-md-6 padding-dekstop-col">
+										<input type="text" class="form-control validate" id="ap-paterno" placeholder="Apellido paterno">
+										<span class="input-success"></span>
+										<span class="input-error"></span>
+									</div>
+									<div class="form-group col-xs-12 col-md-6 padding-dekstop-col">
+										<input type="text" class="form-control validate" id="ap-materno" placeholder="Apellido materno">
+										<span class="input-success"></span>
+										<span class="input-error"></span>
+									</div>
+									<div class="form-group col-xs-12 padding-dekstop-col">
+										<input type="tel" class="form-control validate" id="celular" placeholder="Celular sin 044">
+										<span class="input-success"></span>
+										<span class="input-error"></span>
+									</div>
+									<div class="form-group col-xs-12 padding-dekstop-col">
+										<input type="email" class="form-control validate" id="correo" placeholder="Correo electrónico">
+										<span class="input-success"></span>
+										<span class="input-error"></span>
+									</div>
+								</div>
+								<div class="row">
+									<div id="loader-phone-message" class="row hidden">
+										<div class="sk-folding-cube">
+											<div class="sk-cube1 sk-cube"></div>
+											<div class="sk-cube2 sk-cube"></div>
+											<div class="sk-cube4 sk-cube"></div>
+											<div class="sk-cube3 sk-cube"></div>
+										</div>
+										<div class="center">
+											<span>Enviando mensaje SMS</span>
+										</div>
+									</div>
+									<div class="col-xs-12 alert-div">
+										<div id="phone-message-alert" class="alert alert-info alert-dismissible hidden" role="alert">
+											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+											<i class="fa fa-info-circle"></i> Hemos enviado un código SMS a tu celular, si no lo recibes en 15 segundos, puede que el número ingresado
+											no este correcto
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-12 code-submit hidden">
+										<h1 class="title-section">Ingresar código SMS</h1>
+										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+										<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+									</div>
+								</div>
+								<div class="col-xs-12 text-center padding-dekstop-col">
+									<a href="identificacion.html" id="btnSolicitarOfertas" class="btn btn-form">Solicítalo ahora</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-md-11 col-md-offset-1">
+								<div id="form-cotizador"></div>
+								<div id="propuestas-cotizador"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="cel-credit">
+			<div class="row no-margin">
+
+				<div class="col-xs-12 col-md-6 margin-7">
+					<p class="cel-legend">Si tienes algún trámite abierto con nosotros, puedes consultar aquí el estatus ingresando tu celular:</p>
+
+					<input id="celular-check" type="text" class="check-status" placeholder="55 1234 5678">
+					<div id="celular-valido" class="col-xs-12 hidden">
+						<p>Ingresa un número de celular válido</p>
+					</div>
+					<div id="btn-consulta-estatus" class="col-xs-12 hidden">
+						<a href="status.html" class="btn btn-form">Consultar</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<img src="img/cel-tramite.png" alt="" class="img-responsive">
+				</div>
+
+			</div>
+		</section>
+		<section id="pasos-credito" class="container">
+			<div class="text-center steps-header">
+				<h2>¿Cómo funciona?</h2>
+				<span>Tu solicitud de crédito en minutos, es muy fácil</span>
+			</div>
+			<div class="row steps-info text-center">
+				<div class="col-xs-12 col-md-2 col-md-offset-1">
+					<img src="img/icons/responsive.svg" alt="">
+					<h5 class="steps-title">Registrate</h5>
+					<p>Captura tu nombre y datos de contacto.</p>
+				</div>
+				<div class="col-xs-12 col-md-2">
+					<img src="img/icons/documents.svg" alt="">
+					<h5 class="steps-title">Elige tu crédito</h5>
+					<p>Después de validar tu información, podrás escoger el monto de tu crédito.</p>
+				</div>
+				<div class="col-xs-12 col-md-2">
+					<img src="img/icons/tax.svg" alt="">
+					<h5 class="steps-title">Firma contratos</h5>
+					<p>Cuando elijas el monto de tu crédito deberás descargar, imprimir y firmar tus contratos.</p>
+				</div>
+				<div class="col-xs-12 col-md-2">
+					<img src="img/icons/mail.svg" alt="">
+					<h5 class="steps-title">Envía contratos</h5>
+					<p>Indícanos en donde deseas que uno de nuestros representantes recoja los contratos ya firmados.</p>
+				</div>
+				<div class="col-xs-12 col-md-2">
+					<img src="img/icons/money_1.svg" alt="">
+					<h5 class="steps-title">Recibe tu dinero</h5>
+					<p>Indícanos en donde deseas que uno de nuestros representantes recoja los contratos ya firmados.</p>
+				</div>
+			</div>
+		</section>
+		<section class="testimonios" id="testimonios">
+			<div class="col-md-6 col-xs-12 split-image-testimony">
+				<h2>Testimonios</h2>
+			</div>
+			<div class="col-md-6 col-xs-12 split-right-content">
+
+			</div>
+
+
+
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="row" style="padding: 20px">
+							<div class="col-xs-12 col-md-6 col-md-offset-3">
+								<div class="panel panel-border section-panel">
+									<div class="panel-body text-center">
+										<img class="testimonio-pic" src="img/profile.jpg" alt="">
+										<div class="person">
+											<img src="img/quotes.png" alt="">
+											<p>- Laura López</p>
+										</div>
+										<blockquote>
+											Fue muy fácil el proceso al no tener que asistir a una sucursal. Recomiendo ampliamente sus servicios financieros ya que
+											lo puedes realizar desde la comodidad de tu casa.
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="row" style="padding: 20px">
+							<div class="col-xs-12 col-md-6 col-md-offset-3">
+								<div class="panel panel-border section-panel">
+									<div class="panel-body text-center">
+										<img class="testimonio-pic" src="img/profile.jpg" alt="">
+										<div class="person">
+											<img src="img/quotes.png" alt="">
+											<p>- Ximena Perujo</p>
+										</div>
+										<blockquote>
+											Es increible!!! en 5 minutos puedo tramitar un credito, es accesible rapido y sencillo, no tengo que ir mas lejos de mi celular
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+	
+
+
+	</section>
+
+
+	<section id="preguntas" class="faq">
+		<div class="container">
+
+			<div class="col-md-4">
+				<h1>Preguntas
+					<span>frecuentes</span>
+				</h1>
+	
+			</div>
+			<div class="col-md-8 text-center">
+				<a href="#faq-1" data-toggle="collapse">¿Por qué no recibo el código en mi celular?</a>
+				<div id="faq-1" class="collapse faq-answer">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit accusamus placeat veniam laborum ipsum accusantium mollitia
+					a rerum dolor, recusandae culpa modi ipsa obcaecati, temporibus quibusdam nam eos, tenetur aut.
+				</div>
+				<a href="#faq-2" data-toggle="collapse">No puedo avanzar en mi registro ¿qué hago?</a>
+				<div id="faq-2" class="collapse faq-answer">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit accusamus placeat veniam laborum ipsum accusantium mollitia
+					a rerum dolor, recusandae culpa modi ipsa obcaecati, temporibus quibusdam nam eos, tenetur aut.
+				</div>
+				<a href="#faq-3" data-toggle="collapse">No encuentro mi dependencia en las opciones</a>
+				<div id="faq-3" class="collapse faq-answer">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit accusamus placeat veniam laborum ipsum accusantium mollitia
+					a rerum dolor, recusandae culpa modi ipsa obcaecati, temporibus quibusdam nam eos, tenetur aut.
+				</div>
+				<a href="#faq-4" data-toggle="collapse">¿Cómo puedo identificar la dependencia a la que pertenezco?</a>
+				<div id="faq-4" class="collapse faq-answer">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit accusamus placeat veniam laborum ipsum accusantium mollitia
+					a rerum dolor, recusandae culpa modi ipsa obcaecati, temporibus quibusdam nam eos, tenetur aut.
+				</div>
+				<a href="#faq-5" data-toggle="collapse">¿Cuánto tiempo tardan en autorizar el crédito?</a>
+				<div id="faq-5" class="collapse faq-answer">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit accusamus placeat veniam laborum ipsum accusantium mollitia
+					a rerum dolor, recusandae culpa modi ipsa obcaecati, temporibus quibusdam nam eos, tenetur aut.
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+</div>
+
+	<footer id="footer">
+		<!-- modal fovissste/infonavit-->
+
+		<!-- .footer-top -->
+		<div class="footer-bottom">
+			<div class="container text-center">
+					<p>¿Necesitas un asesor? Contáctanos</p>
+					<p><a href="tel:5500000000"><i class="fa fa-volume-control-phone fa-2x" aria-hidden="true"></i> 55 0000 0000</a></p>
+					<p><a href="mailto:contact@vepormas.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i> contacto@consubanco.com</a></p>
+		
+			</div>
+		</div>
+		<!-- .footer-bottom -->
+	</footer>
+	</div>
+
+
+
+	<script src="libs/jquery.js"></script>
+	<script src="libs/bootstrap.js"></script>
+	<script src="libs/jquery.navgoco.min.js"></script>
+	<script src="libs/bootstrap-datepicker.min.js"></script>
+	<script src="libs/bootstrap-datepicker.es.min.js"></script>
+	<script src="libs/bootstrap-editable.min.js"></script>
+	<script src="libs/bootstrap-slider.js"></script>
+	<script src="libs/cleave.min.js"></script>
+	<script src="libs/cleave-phone.mx.js"></script>
+	<script src="libs/slick.min.js"></script>
+	<script src="libs/animate.css.min.js"></script>
+	<script src="libs/jquery.animate.css.js"></script>
+	<script src="libs/typed.js"></script>
+	<script src="libs/jquery.range-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/es.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+
+	<script src="js/index.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.responsive').slick({
+				dots: true,
+				appendDots: '.dots-nav',
+				nextArrow: '.next',
+				prevArrow: '.prev',
+				infinite: false,
+				speed: 300,
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				responsive: [{
+						breakpoint: 1024,
+						settings: {
+							slidesToShow: 3,
+							slidesToScroll: 3,
+							infinite: true,
+							dots: true
+						}
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 2
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1
+						}
+					}
+					// You can unslick at a given breakpoint now by adding:
+					// settings: "unslick"
+					// instead of a settings object
+				]
+			});
+		});
+	</script>
+
+
+</body>
+
+</html>

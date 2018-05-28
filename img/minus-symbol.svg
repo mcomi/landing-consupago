@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>minus-symbol-inside-a-circle (1) copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing_Perfilador" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-323.000000, -958.000000)">
+        <g id="minus-symbol-inside-a-circle-(1)-copy" transform="translate(323.000000, 958.000000)">
+            <path d="M8,0 C3.582,0 0,3.582 0,8 C0,12.418 3.582,16 8,16 C12.418,16 16,12.418 16,8 C16,3.582 12.418,0 8,0 Z" id="Shape" fill="#EB0029" fill-rule="nonzero"></path>
+            <polygon id="Path" fill="#FFFFFF" points="12 9 4 9 4 7 12 7"></polygon>
+        </g>
+    </g>
+</svg>

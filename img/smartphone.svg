@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="40px" viewBox="0 0 21 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>smartphone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Process_4_uploading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-583.000000, -840.000000)">
+        <g id="upload_house-copy" transform="translate(215.000000, 748.000000)" fill-rule="nonzero">
+            <g id="id_capture" transform="translate(82.000000, 73.000000)">
+                <g id="Camera_buton-Copy-3" transform="translate(256.000000, 0.000000)">
+                    <g id="smartphone" transform="translate(30.000000, 19.000000)">
+                        <path d="M19.3870854,40 L1.61291461,40 C0.725564573,40 0,39.265 0,38.3675 L0,1.6325 C0,0.735 0.725564573,0 1.61291461,0 L19.3870854,0 C20.2744354,0 21,0.735 21,1.6325 L21,38.3675 C21,39.265 20.2744354,40 19.3870854,40 Z" id="Shape" fill="#EB0029"></path>
+                        <rect id="Rectangle-path" fill="#FFA400" x="1" y="3" width="19" height="32"></rect>
+                        <g id="Group" transform="translate(8.000000, 1.000000)" fill="#666666">
+                            <ellipse id="Oval" cx="3.67894737" cy="0.378" rx="1" ry="1"></ellipse>
+                            <path d="M5.67347368,1.97 L1.68442105,1.97 C1.50505263,1.97 1.35852632,1.81533333 1.35852632,1.626 C1.35852632,1.43666667 1.50505263,1.282 1.68442105,1.282 L5.67347368,1.282 C5.85284211,1.282 5.99936842,1.43666667 5.99936842,1.626 C5.99873684,1.81533333 5.85221053,1.97 5.67347368,1.97 Z" id="Shape"></path>
+                            <ellipse id="Oval" cx="0.378947368" cy="1.62666667" rx="1" ry="1"></ellipse>
+                        </g>
+                        <g id="Group" opacity="0.15" transform="translate(1.000000, 3.000000)" fill="#FFFFFF">
+                            <polygon id="Shape" points="0.0717294686 13.9452874 0.0717294686 0.0115862069 15.9752657 0.0115862069"></polygon>
+                        </g>
+                        <circle id="Oval" fill="#666666" cx="10.5" cy="37.5" r="1.5"></circle>
+                        <path d="M11,39 C10.4483607,39 10,38.5514555 10,37.99959 C10,37.4485445 10.4483607,37 11,37 C11.5516393,37 12,37.4485445 12,37.99959 C12,38.5514555 11.5516393,39 11,39 Z M11,37.2730627 C10.5983607,37.2730627 10.2729508,37.598606 10.2729508,37.99877 C10.2729508,38.400574 10.5983607,38.7261173 11,38.7261173 C11.4016393,38.7261173 11.7270492,38.400574 11.7270492,37.99877 C11.7270492,37.599426 11.4016393,37.2730627 11,37.2730627 Z" id="Shape" fill="#CCCCCC"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

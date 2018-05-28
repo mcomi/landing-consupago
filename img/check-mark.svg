@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>check-mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Process_accepted" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-220.000000, -693.000000)">
+        <g id="form" transform="translate(184.000000, 183.000000)" fill="#FF671B" fill-rule="nonzero">
+            <g id="next-copy-2" transform="translate(34.000000, 508.000000)">
+                <g id="check-mark" transform="translate(2.000000, 2.013093)">
+                    <path d="M4.25805378,12.0785597 C3.8850226,12.0785597 3.53222014,11.9029017 3.30541855,11.6016258 L0.242311453,7.52991493 C-0.156091329,7.00035267 -0.052376319,6.24630017 0.47374164,5.84511664 C1.00071675,5.44376055 1.74935055,5.54884475 2.14792476,6.07806191 L4.1625674,8.75572475 L9.22951706,0.566749176 C9.57837664,0.00336670552 10.3150104,-0.169012801 10.8759286,0.181612982 C11.436161,0.532583868 11.6072479,1.27455772 11.2582169,1.83845784 L5.27257515,11.5117262 C5.06463084,11.8480302 4.7056569,12.059579 4.31256844,12.0775244 C4.29422546,12.0782146 4.27622533,12.0785597 4.25805378,12.0785597 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
