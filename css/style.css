@@ -1202,8 +1202,12 @@ p.terminos a {
 .carousel-control.right:before {
   content: url("../img/arrow_right_white.png"); }
 
+.barra-cotizador p {
+  margin-bottom: 25px; }
+
 .slider-container {
   width: 100%;
+  margin: 30px 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 33px; }
 
@@ -1229,11 +1233,12 @@ p.terminos a {
 
 .slider-container .back-bar .pointer-label {
   position: absolute;
-  top: -17px;
-  font-size: 8px;
-  background: white;
+  top: -50px;
+  font-size: 16px;
+  background: transparent;
   white-space: nowrap;
-  line-height: 1; }
+  line-height: 1;
+  font-weight: 800; }
 
 .slider-container .back-bar .focused {
   z-index: 10; }
@@ -1279,10 +1284,8 @@ p.terminos a {
 
 .theme-green .back-bar .selected-bar {
   border-radius: 2px;
-  background-color: #a1fad0;
-  background-image: linear-gradient(to bottom, #bdfade, #76fabc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbdfade', endColorstr='#ff76fabc', GradientType=0); }
+  background-color: #fff;
+  background-repeat: repeat-x; }
 
 .theme-green .back-bar .pointer {
   width: 14px;
@@ -1297,10 +1300,10 @@ p.terminos a {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeeeee', endColorstr='#ffdddddd', GradientType=0); }
 
 .theme-green .back-bar .pointer-label {
-  color: #999; }
+  color: #fff; }
 
 .theme-green .back-bar .focused {
-  color: #333; }
+  color: #fff; }
 
 .theme-green .scale span {
   border-left: 1px solid #e5e5e5; }
