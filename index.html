@@ -239,37 +239,40 @@
 												<span class="input-success"></span>
 												<span class="input-error"></span>
 											</div>
-											<div id="loader-phone-message" class="row hidden">
-													<div class="sk-folding-cube">
-														<div class="sk-cube1 sk-cube"></div>
-														<div class="sk-cube2 sk-cube"></div>
-														<div class="sk-cube4 sk-cube"></div>
-														<div class="sk-cube3 sk-cube"></div>
-													</div>
-													<div class="center">
-														<span>Enviando mensaje SMS</span>
-													</div>
-												</div>
-												<div class="col-xs-12 alert-div">
-														<div id="phone-message-alert" class="alert alert-info alert-dismissible hidden" role="alert">
-															<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-																<span aria-hidden="true">&times;</span>
-															</button>
-															<i class="fa fa-info-circle"></i> Hemos enviado un código SMS a tu celular, si no lo recibes en 15 segundos, puede que el número ingresado
-															no este correcto
-														</div>
-													</div>
-													<div class="col-xs-12 col-md-12 code-submit hidden">
-														<h1 class="title-section">Ingresar código SMS</h1>
-														<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-														<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-														<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-														<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-														<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-													</div>
+											
 										</div>
 										<div class="col-xs-12 text-center padding-dekstop-col">
-											<a href="identificacion.html" id="btnSolicitarOfertas" class="btn btn-form">Solicítalo ahora</a>
+											<a href="#" id="btnSolicitarOfertas" class="btn btn-form">Solicítalo ahora</a>
+										</div>
+										<div id="loader-phone-message" class="col-xs-12 text-center hidden">
+											<div class="sk-folding-cube">
+												<div class="sk-cube1 sk-cube"></div>
+												<div class="sk-cube2 sk-cube"></div>
+												<div class="sk-cube4 sk-cube"></div>
+												<div class="sk-cube3 sk-cube"></div>
+											</div>
+											<div class="center">
+												<span>Enviando mensaje SMS</span>
+											</div>
+										</div>
+										<div class="col-xs-12 alert-div">
+											<div id="phone-message-alert" class="alert alert-info alert-dismissible hidden" role="alert">
+												<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+												<i class="fa fa-info-circle"></i> Hemos enviado un código SMS a tu celular, si no lo recibes en 15 segundos, puede que el número ingresado no este correcto
+											</div>
+										</div>
+										<div class="col-xs-12 col-md-12 code-submit text-center hidden">
+											<h1 class="title-section">Ingresar código SMS</h1>
+											<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+											<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+											<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+											<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+											<input type="tel" class="code-input" maxlength="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+										</div>
+										<div class="col-xs-12 text-center padding-dekstop-col">
+											<a href="identificacion.html" id="btnContinuar" class="btn btn-form hidden">Solicitar</a>
 										</div>
 							</div>
 

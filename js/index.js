@@ -85,3 +85,26 @@ $(".icon-item").hover(function(){
 $(".icon-item").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",function(){
   $(this).removeClass('animated pulse');
 });
+
+$('#btnSolicitarOfertas').click(function (e){
+  e.preventDefault();
+  $('#loader-phone-message').removeClass('hidden');
+  $(this).hide();
+  setTimeout(function(){
+    $('#loader-phone-message').addClass('hidden');
+    $('#phone-message-alert').removeClass('hidden');
+    $('.code-submit').removeClass('hidden');
+    $('#btnContinuar').removeClass('hidden');
+  }, 3000)
+});
+
+$(".code-input").bind('keyup', function() {
+  var indexInput = 0;
+  var value = $(this).val()
+  var regex = /^\d+$/
+  if (regex.test(value)) {
+    if (indexInput < 5)
+      $(this).next().focus()
+    indexInput++
+  }
+});
