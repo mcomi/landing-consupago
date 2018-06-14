@@ -3,6 +3,28 @@ var monto24Meses = $('#24-meses');
 var monto36Meses = $('#36-meses');
 var monto48Meses = $('#48-meses');
 
+// Detect Mobile Devices
+var isMobile = {
+  Android: function() {
+    return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function() {
+    return navigator.userAgent.match(/BlackBerry/i);
+  },
+  iOS: function() {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function() {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Windows: function() {
+    return navigator.userAgent.match(/IEMobile/i);
+  },
+  any: function() {
+    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+  }
+};
+
 $.fn.exists = function() {
   return this.length > 0;
 }
@@ -107,7 +129,7 @@ $('#btnSolicitarOfertas').click(function (e){
     $('#phone-message-alert').removeClass('hidden');
     $('.code-submit').removeClass('hidden');
     $('#btnContinuar').removeClass('hidden');
-    $('.wrapper').css('min-height','248vh')
+    if( isMobile.any() ) $('.wrapper').css('min-height','248vh')
   }, 3000)
 });
 

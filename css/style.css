@@ -1573,6 +1573,7 @@ body {
     font-size: 16px; }
 
 .panel-cotizador {
+  display: inline-block;
   background-color: rgba(32, 107, 157, 0.8);
   margin: -110px 40px 0 0px;
   height: auto;
@@ -1930,9 +1931,6 @@ p.credit-text {
     top: 2%;
     width: 100%;
     margin: 0; }
-  .code-input {
-    padding: 8px 16px;
-    width: 50px; }
   .left-header-panel {
     margin: 0;
     padding: 28px; }
