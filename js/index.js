@@ -34,7 +34,18 @@ $('.slider-nav').slick({
   centerPadding: '60px',
   infinite: false,
   arrows: false,
-  focusOnSelect: true
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '110px'
+      }
+    }
+  ]
 });
 
 $('.slider-nav').on('afterChange', function(event, slick, currentSlide, nextSlide){
@@ -87,6 +98,7 @@ $(".icon-item").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationE
 });
 
 $('#btnSolicitarOfertas').click(function (e){
+  
   e.preventDefault();
   $('#loader-phone-message').removeClass('hidden');
   $(this).hide();
@@ -95,6 +107,7 @@ $('#btnSolicitarOfertas').click(function (e){
     $('#phone-message-alert').removeClass('hidden');
     $('.code-submit').removeClass('hidden');
     $('#btnContinuar').removeClass('hidden');
+    $('.wrapper').css('min-height','248vh')
   }, 3000)
 });
 
@@ -107,4 +120,17 @@ $(".code-input").bind('keyup', function() {
       $(this).next().focus()
     indexInput++
   }
+});
+
+
+const menuLinks = $('#desktop-menu a');
+
+menuLinks.each(function(index) {
+  let menuItem = $(this);
+  menuItem.click(function(e){
+    e.preventDefault()
+    let section = this.getAttribute("href");
+    $('html, body').animate({ scrollTop: $(section).offset().top }, 'slow');
+  })
+
 });
