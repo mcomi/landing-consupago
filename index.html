@@ -111,9 +111,12 @@
 
 								<p class="title-cotizador">
 									<span>1.</span> Selecciona la dependencia donde labores</p>
-								<div class="col-md-10">
+								<div id="eleccion-dependencia" class="col-md-4 col-md-offset-4 hidden">
+									<button class="btn btn-default btn-cambia-dependencia">Cambiar</button>
+								</div>
+								<div class="col-md-12" id="dependencias-container">
 
-									<div class="col-xs-6 col-md-2">
+									<div class="col-xs-6 col-md-2 div-dependencia">
 										<input type="radio" value="imss-j" id="imss-j" name="dependencia">
 										<label for="imss-j">
 											<div class="icon-item">
@@ -122,7 +125,7 @@
 										</label>
 										<p class="credit-text text-center">IMSS Jubilados</p>
 									</div>
-									<div class="col-xs-6 col-md-2">
+									<div class="col-xs-6 col-md-2 div-dependencia">
 										<input type="radio" value="sep" id="sep" name="dependencia">
 										<label for="sep">
 											<div class="icon-item">
@@ -131,7 +134,7 @@
 										</label>
 										<p class="credit-text text-center">SEP</p>
 									</div>
-									<div class="col-xs-6 col-md-2">
+									<div class="col-xs-6 col-md-2 div-dependencia">
 										<input type="radio" value="sente" id="sente" name="dependencia">
 										<label for="sente">
 											<div class="icon-item">
@@ -140,7 +143,7 @@
 										</label>
 										<p class="credit-text text-center">SNTE 17 y 36 EdoMex</p>
 									</div>
-									<div class="col-xs-6 col-md-2">
+									<div class="col-xs-6 col-md-2 div-dependencia">
 										<input type="radio" value="imss-p" id="imss-p" name="dependencia">
 										<label for="imss-p">
 											<div class="icon-item">
@@ -149,7 +152,7 @@
 										</label>
 										<p class="credit-text text-center">IMSS Pensionados</p>
 									</div>
-									<div class="col-xs-6 col-md-2">
+									<div class="col-xs-6 col-md-2 div-dependencia">
 										<input type="radio" value="gob-cdmx" id="gob-cdmx" name="dependencia">
 										<label for="gob-cdmx">
 											<div class="icon-item">
@@ -158,23 +161,16 @@
 										</label>
 										<p class="credit-text text-center">GOB. CDMX</p>
 									</div>
-									<div class="col-xs-6 col-md-2">
-										<input type="radio" value="pemex" id="pemex" name="dependencia">
-										<label for="pemex">
-											<div class="icon-item">
-												<img src="img/logoPemex.png" alt="">
-											</div>
-										</label>
-										<p class="credit-text text-center">PEMEX</p>
-									</div>
-								</div>
-								<div class="col-md-2">
+									<div class="col-xs-6 col-md-2 div-dependencia">
 
-										<input type="radio" value="otra" id="otra" name="dependencia">
-										<label for="otra" class="otros-label">
-											OTRAS
-										</label>
+											<input type="radio" value="otra" id="otra" name="dependencia">
+											<label for="otra" class="otros-label">
+												OTRAS
+											</label>
+									</div>
+									
 								</div>
+								
 							</div>
 							<div class="step-form col-md-12">
 								<p class="title-cotizador">
@@ -218,63 +214,67 @@
 										<img src="img/ruler.png" alt="">
 									</div>
 								</div>
-								<div class="col-xs-12 col-md-10 col-md-offset-1">
+								
+									<div class="barra-cotizador">
 
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>108 quincenas</p>
-											<span id="12-meses">$1,000</span>
+										<div class="slider-pagos slider-nav-pagos">
+											
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>108 quincenas</p>
+													<span id="12-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>120 quincenas</p>
+													<span id="12-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>96 quincenas</p>
+													<span id="24-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>84 quincenas</p>
+													<span id="36-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>72 quincenas</p>
+													<span id="48-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>60 quincenas</p>
+													<span id="48-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>48 quincenas</p>
+													<span id="48-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>36 quincenas</p>
+													<span id="48-meses">$1,000</span>
+												</div>
+											</div>
+											<div class="col-md-3 col-xs-6">
+												<div class="pago-por-mes">
+													<p>24 quincenas</p>
+													<span id="48-meses">$1,000</span>
+												</div>
+											</div>
 										</div>
 									</div>
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>120 quincenas</p>
-											<span id="12-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>96 quincenas</p>
-											<span id="24-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>84 quincenas</p>
-											<span id="36-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>72 quincenas</p>
-											<span id="48-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>60 quincenas</p>
-											<span id="48-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>48 quincenas</p>
-											<span id="48-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>36 quincenas</p>
-											<span id="48-meses">$1,000</span>
-										</div>
-									</div>
-									<div class="col-md-3 col-xs-6">
-										<div class="pago-por-mes">
-											<p>24 quincenas</p>
-											<span id="48-meses">$1,000</span>
-										</div>
-									</div>
-								</div>
 							</div>
 							<div class="step-form col-md-12">
 
