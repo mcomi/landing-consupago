@@ -55,7 +55,7 @@ $('.slider-nav').slick({
   centerMode: true,
   centerPadding: '60px',
   infinite: false,
-  arrows: false,
+  arrows: true,
   focusOnSelect: true,
   responsive: [
     {
@@ -64,6 +64,26 @@ $('.slider-nav').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
+        centerPadding: '110px'
+      }
+    }
+  ]
+});
+
+$('.slider-nav-pagos').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  dots: false,
+  centerPadding: '60px',
+  infinite: false,
+  arrows: true,
+  focusOnSelect: false,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
         centerPadding: '110px'
       }
     }
@@ -156,3 +176,11 @@ menuLinks.each(function(index) {
   })
 
 });
+
+$( "input[name='dependencia']" ).click(function(){
+      var clone = $(this).parent().clone();
+      clone.appendTo('#eleccion-dependencia');
+      clone.removeClass('col-xs-6, col-md-2')
+      $('#eleccion-dependencia').removeClass('hidden')
+      $('#dependencias-container').addClass('hidden')
+})
