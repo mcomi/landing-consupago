@@ -144,12 +144,15 @@ $('#btnSolicitarOfertas').click(function (e){
   e.preventDefault();
   $('#loader-phone-message').removeClass('hidden');
   $(this).hide();
+  $('#celular').prop( "disabled", true );
   setTimeout(function(){
     $('#loader-phone-message').addClass('hidden');
+    // $('#celular')
     $('#phone-message-alert').removeClass('hidden');
     $('.code-submit').removeClass('hidden');
     $('#btnContinuar').removeClass('hidden');
     if( isMobile.any() ) $('.wrapper').css('min-height','248vh')
+    if(!isMobile.any()) $('.wrapper').css('min-height','160vh')
   }, 3000)
 });
 
@@ -183,4 +186,28 @@ $( "input[name='dependencia']" ).click(function(){
       clone.removeClass('col-xs-6, col-md-2')
       $('#eleccion-dependencia').removeClass('hidden')
       $('#dependencias-container').addClass('hidden')
+})
+
+$('#btn-cambiar-dependencia').click(function(){
+  $('#eleccion-dependencia').find('div').remove()
+  $('#eleccion-dependencia').addClass('hidden')
+  $('#dependencias-container').removeClass('hidden')
+})
+
+$('#btn-cambiar-telefono').click(function(){
+  var timeleft = 15;
+  var downloadTimer = setInterval(function(){
+  document.getElementById("counter").innerHTML = 'En ' + (--timeleft) + ' segundos podrás cambiar el teléfono';
+  if(timeleft <= 0){
+    document.getElementById("counter").innerHTML = '';
+    clearInterval(downloadTimer);
+    $('#phone-message-alert').addClass('hidden');
+    $('.code-submit').addClass('hidden');
+    $('#btnContinuar').addClass('hidden');
+    $('#btnSolicitarOfertas').show()
+    $('#celular').prop( "disabled", false );
+  }
+    
+},1000);
+
 })

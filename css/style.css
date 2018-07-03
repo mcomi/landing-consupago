@@ -1642,7 +1642,18 @@ p.credit-text {
   border: 1px solid #DF5C3C;
   color: white; }
 
-.btn-cambia-dependencia:hover {
+.btn-cambia-telefono {
+  background: transparent;
+  border: 1px solid #DF5C3C;
+  color: white; }
+
+.btn-cambia-telefono ~ span {
+  vertical-align: bottom; }
+
+#phone-message-alert {
+  text-align: center; }
+
+.btn-cambia-dependencia:hover, .btn-cambia-telefono:hover {
   background: #DF5C3C;
   border: 1px solid #DF5C3C;
   color: #333; }

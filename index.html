@@ -112,7 +112,7 @@
 								<p class="title-cotizador">
 									<span>1.</span> Selecciona la dependencia donde labores</p>
 								<div id="eleccion-dependencia" class="col-md-4 col-md-offset-4 hidden">
-									<button class="btn btn-default btn-cambia-dependencia">Cambiar</button>
+									<button id="btn-cambiar-dependencia" class="btn btn-default btn-cambia-dependencia">Cambiar</button>
 								</div>
 								<div class="col-md-12" id="dependencias-container">
 
@@ -325,12 +325,17 @@
 									</div>
 								</div>
 								<div class="col-xs-12 alert-div">
-									<div id="phone-message-alert" class="alert alert-info alert-dismissible hidden" role="alert">
-										<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-										<i class="fa fa-info-circle"></i> Hemos enviado un código SMS a tu celular, si no lo recibes en 15 segundos, puede que el número ingresado no
-										este correcto
+									<div id="phone-message-alert" class="hidden">
+										
+										<div class="alert alert-info alert-dismissible" role="alert">
+											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+											<i class="fa fa-info-circle"></i> Hemos enviado un código SMS a tu celular, si no lo recibes en 15 segundos, puede que el número ingresado no
+											este correcto
+										</div>
+										<button id="btn-cambiar-telefono" class="btn btn-default btn-cambia-telefono">Cambiar teléfono</button>
+										<span id="counter"></span>
 									</div>
 								</div>
 								<div class="col-xs-12 col-md-12 code-submit text-center hidden">
