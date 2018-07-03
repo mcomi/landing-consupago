@@ -152,7 +152,7 @@ $('#btnSolicitarOfertas').click(function (e){
     $('.code-submit').removeClass('hidden');
     $('#btnContinuar').removeClass('hidden');
     if( isMobile.any() ) $('.wrapper').css('min-height','248vh')
-    if(!isMobile.any()) $('.wrapper').css('min-height','184vh')
+    if(!isMobile.any()) $('.wrapper').css('min-height','190vh')
   }, 3000)
 });
 
