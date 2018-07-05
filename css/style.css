@@ -1956,7 +1956,7 @@ p.credit-text {
   .navbar-brand > img {
     height: 30px; }
   .wrapper {
-    min-height: 198vh; }
+    min-height: 208vh; }
   .header-content {
     top: 2%;
     width: 100%;
@@ -1996,7 +1996,9 @@ p.credit-text {
   .check-status {
     font-size: 23px; }
   #cel-credit {
-    padding: 0; } }
+    padding: 0; }
+  .div-dependencia {
+    min-height: 120px; } }
 
 @media (max-width: 320px) {
   .header-content .col-xs-12 {
@@ -2012,7 +2014,7 @@ p.credit-text {
     padding: 0;
     width: 100%; }
   .icon-item img {
-    height: 38px;
+    height: 35px;
     padding: 0px;
     cursor: pointer; }
   p.credit-text {
@@ -2023,7 +2025,7 @@ p.credit-text {
   .slick-next {
     right: -5px; }
   .div-dependencia {
-    min-height: 100px; } }
+    min-height: 108px; } }
 
 @media (min-width: 801px) {
   .navbar-nav {

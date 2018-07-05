@@ -151,8 +151,8 @@ $('#btnSolicitarOfertas').click(function (e){
     $('#phone-message-alert').removeClass('hidden');
     $('.code-submit').removeClass('hidden');
     $('#btnContinuar').removeClass('hidden');
-    if( isMobile.any() ) $('.wrapper').css('min-height','248vh')
-    if(!isMobile.any()) $('.wrapper').css('min-height','190vh')
+    if( isMobile.any() ) $('.wrapper').css('min-height','258vh')
+    if(!isMobile.any()) $('.wrapper').css('min-height','160vh')
   }, 3000)
 });
 
