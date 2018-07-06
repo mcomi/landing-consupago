@@ -25,6 +25,14 @@ var isMobile = {
   }
 };
 
+$('input').focus(function(){
+  if( isMobile.Android() ) $('.wrapper').css('min-height','390vh')
+})
+
+$('input').focusout(function(){
+  if( isMobile.Android() ) $('.wrapper').css('min-height','208vh')
+})
+
 $.fn.exists = function() {
   return this.length > 0;
 }
@@ -211,3 +219,4 @@ $('#btn-cambiar-telefono').click(function(){
 },1000);
 
 })
+
